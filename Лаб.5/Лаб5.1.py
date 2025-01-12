@@ -6,5 +6,5 @@ class Book:
     def get_info(self)->str:
         return f"Название книги:{self.title}, Автор:{self.author}, Год издания:{self.year}"
 
-my_book = Book('Название','автор',2000)
+my_book = Book('Рецепты с топором','Раскольников',1956)
 print(my_book.get_info())
