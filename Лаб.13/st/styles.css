@@ -1,0 +1,52 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  color: white;
+  padding: 0;
+  text-align: center;
+  background-color: #282828;
+}
+header {
+  background: #3500D3;
+  color: #282828;
+  padding: 20px;
+  font-size: 24px;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+main {
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+}
+.content-box {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  background-color: #3500D3;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 100px;
+}
+.spiral-text {
+  display: inline-block;
+  position: center;
+  animation: spiral 10s linear infinite;
+}
+@keyframes spiral {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(90deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
+}
+.sirin-stencil-regular {
+  font-family: "Sirin Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
